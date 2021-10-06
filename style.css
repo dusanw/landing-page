@@ -46,6 +46,7 @@ button {
     background-color: #3882f6;
     color: #e5e7eb;
     font-weight: bold;
+    border: #e5e7eb solid 1px;
 }
 
 .header {
@@ -65,7 +66,7 @@ button {
 }
 
 .header-logo {
-    font-family: 'Akronim', cursive;
+    font-family: 'Ephesis', cursive;
     font-size: 24px;
     color: #f9faf8;
 }
@@ -116,7 +117,7 @@ button {
     background-color: #e5e7eb;
     padding: 16px 50px;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
     text-align: left;
 }
 
@@ -148,12 +149,15 @@ button {
 }
 
 .footer {
+    display: flex;
+    flex-flow: row nowrap;
     background-color: #1f2937;
     color: #e5e7eb;
     padding: 16px 50px;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     text-align: center;
+    gap: 8px;
 }
 
 
